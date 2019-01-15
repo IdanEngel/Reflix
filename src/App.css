@@ -1,32 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#main-links > a{
+  margin: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: rgb(22, 21, 21)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*{
+  color: white;
+  text-decoration: none;
+}
+
+#home-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 50px;
+}
+
+.user {
+  width: 150px;
+  height: 150px;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.watch {
+ display: grid;
+ justify-items: center;
+ margin-top: 30px;
+ font-size: 25px;
+}
+
+#ref {
+  text-align: right;
+  margin-right: 90px;
+  
+}
+
+input {
+  background-color: black;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.images{
+  display: grid;
+  border-radius: 15px;
+  font-size: 25px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+/* .images .btn {
+  position: absolute;
+} */
+
+.rentedMovies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.movieDetails {
+  margin-top: 10px;
+  grid-gap: 15px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  align-items: center;
 }
